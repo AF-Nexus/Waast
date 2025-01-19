@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   botName: 'Asta Bot',
   prefix: '!',
   adminIds: ['1234567890'],

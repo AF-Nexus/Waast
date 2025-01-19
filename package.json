@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +18,5 @@
     "figlet": "^1.8.0",
     "mongoose": "^8.9.5",
     "pino": "^9.6.0"
-  },
-    "engines": {
-    "node": "18.x"
   }
 }

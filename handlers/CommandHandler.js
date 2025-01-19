@@ -1,5 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+const _filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(_filename);
 
 class CommandHandler {
   constructor(sock, config) {
@@ -32,4 +36,4 @@ class CommandHandler {
   }
 }
 
-module.exports = CommandHandler;
+export default { CommandHandler };

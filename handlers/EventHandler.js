@@ -1,6 +1,5 @@
-const fs = require('fs');
-const path = require('path');
-
+import fs from 'fs';
+import path from 'path';
 class EventHandler {
   constructor(sock, config) {
     this.sock = sock;
@@ -26,5 +25,4 @@ class EventHandler {
     this.events[eventName].execute(this.sock, this.config, ...args);
   }
 }
-
-module.exports = EventHandler;
+export default { EventHandler };

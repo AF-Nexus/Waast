@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   name: 'groupUpdate',
   execute: async (sock, config, data) => {
     const { groupJid, participants, action } = data;
