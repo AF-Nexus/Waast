@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asta ichiyukimori",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0",
+    "mongoose": "^8.9.5",
+    "pino": "^9.6.0"
+  },
+    "engines": {
+    "node": "18.x"
+  }
+}
