@@ -3,5 +3,5 @@ export default {
   prefix: '!',
   adminIds: ['1234567890'],
   databaseUrl: process.env.DATABASE_URL,
-  databaseName: 'asta-bot',
+  databaseName: 'Seyi',
 };
